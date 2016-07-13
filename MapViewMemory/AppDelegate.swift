@@ -1,20 +1,24 @@
 //
 //  AppDelegate.swift
-//  MapViewMemory
+//  MapViewMemmory
 //
-//  Created by Adrian Tofan on 13/07/2016.
+//  Created by Adrian Tofan on 12/07/2016.
 //  Copyright © 2016 Adrian Tofan. All rights reserved.
 //
 
 import UIKit
+import CoreData
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
-
+  let viewController = ViewController()
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    window = UIWindow(frame:UIScreen.mainScreen().bounds)
+    window?.rootViewController = viewController
+    window?.makeKeyAndVisible()
     // Override point for customization after application launch.
     return true
   }
@@ -39,6 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func applicationWillTerminate(application: UIApplication) {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    // Saves changes in the application's managed object context before the application terminates.
   }
 
 

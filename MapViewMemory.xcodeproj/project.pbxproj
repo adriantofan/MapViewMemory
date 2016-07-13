@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		BFB883A91D3684920077FB61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB883A81D3684920077FB61 /* AppDelegate.swift */; };
 		BFB883AB1D3684920077FB61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB883AA1D3684920077FB61 /* ViewController.swift */; };
-		BFB883AE1D3684920077FB61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB883AC1D3684920077FB61 /* Main.storyboard */; };
 		BFB883B01D3684920077FB61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB883AF1D3684920077FB61 /* Assets.xcassets */; };
 		BFB883B31D3684920077FB61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB883B11D3684920077FB61 /* LaunchScreen.storyboard */; };
+		BFB883BB1D3684F00077FB61 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB883BA1D3684F00077FB61 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BFB883A51D3684920077FB61 /* MapViewMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapViewMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB883A81D3684920077FB61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFB883AA1D3684920077FB61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BFB883AD1D3684920077FB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFB883AF1D3684920077FB61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB883B21D3684920077FB61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB883B41D3684920077FB61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFB883BA1D3684F00077FB61 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +54,9 @@
 		BFB883A71D3684920077FB61 /* MapViewMemory */ = {
 			isa = PBXGroup;
 			children = (
+				BFB883BA1D3684F00077FB61 /* MapViewController.swift */,
 				BFB883A81D3684920077FB61 /* AppDelegate.swift */,
 				BFB883AA1D3684920077FB61 /* ViewController.swift */,
-				BFB883AC1D3684920077FB61 /* Main.storyboard */,
 				BFB883AF1D3684920077FB61 /* Assets.xcassets */,
 				BFB883B11D3684920077FB61 /* LaunchScreen.storyboard */,
 				BFB883B41D3684920077FB61 /* Info.plist */,
@@ -124,7 +124,6 @@
 			files = (
 				BFB883B31D3684920077FB61 /* LaunchScreen.storyboard in Resources */,
 				BFB883B01D3684920077FB61 /* Assets.xcassets in Resources */,
-				BFB883AE1D3684920077FB61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB883AB1D3684920077FB61 /* ViewController.swift in Sources */,
+				BFB883BB1D3684F00077FB61 /* MapViewController.swift in Sources */,
 				BFB883A91D3684920077FB61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BFB883AC1D3684920077FB61 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFB883AD1D3684920077FB61 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BFB883B11D3684920077FB61 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
